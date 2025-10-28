@@ -21,13 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log = originalConsoleLog;
 
       // Отображаем результат
-      if (logOutput) {
-        output.textContent = logOutput;
-        output.style.color = "black";
-      } else {
-        output.textContent = logOutput || "Код не введен";
-        output.style.color = "#e94600ff";
-      }
+      output.textContent = logOutput || "Код выполнен успешно";
+      output.style.color = "black";
     } catch (error) {
       output.textContent = "Ошибка: " + error.message;
       output.style.color = "#e94600ff";

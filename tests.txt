@@ -1,0 +1,46 @@
+// 1. Простой вывод
+console.log('Hello World!');
+
+// 2. Математика
+let a = 5;
+let b = 3;
+console.log('Сумма:', a + b);
+
+// 3. Массивы
+let fruits = ['apple', 'banana', 'orange'];
+fruits.forEach(fruit => console.log(fruit));
+
+// 4. Функции
+function greet(name) {
+  return 'Hello, ' + name + '!';
+}
+console.log(greet('Alice'));
+
+// 5. Циклы
+for (let i = 1; i <= 5; i++) {
+  console.log('Итерация:', i);
+}
+
+// 6. Объекты
+let person = {name: 'John', age: 30};
+console.log('Имя:', person.name);
+
+// 7. Условия
+let temp = 25;
+if (temp > 20) console.log('Тепло');
+else console.log('Прохладно');
+
+// 8. Ошибки
+try {
+  console.log(10 / 0);
+} catch (e) {
+  console.log('Ошибка');
+}
+
+// 9. Строки
+let str = 'JavaScript';
+console.log(str.toUpperCase());
+
+// 10. Стрелочные функции
+const mult = (a, b) => a * b;
+console.log(mult(4, 5));
